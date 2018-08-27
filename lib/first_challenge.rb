@@ -14,10 +14,7 @@ def first_challenge
   }
 contacts[:"Freddy Mercury"][:favorite_icecream_flavors].delete_if {|flavour| flavour === "strawberry" }
 contacts
-  #your code here
-
-
-  #remember to return your newly altered contacts hash!
+  
   contacts
 end
 
